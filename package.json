@@ -1,38 +1,39 @@
 {
-	"name": "nextjs-elysia-router-example",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint",
-		"dev:turbo": "bun next --turbo",
-		"dev:api": "API_MODE=headless bun --watch ./api/index.ts",
-		"dev:eden": "bun run --watch ./api/\\!\\(dev\\)/DEV__eden.ts",
-		"api:generate": "elf"
-	},
-	"dependencies": {
-		"@elysiajs/eden": "^1.0.7",
-		"@elysiajs/swagger": "^1.0.3",
-		"@tanstack/react-store": "^0.3.1",
-		"@tanstack/store": "^0.3.1",
-		"elysia": "^1.0.9",
-		"next": "14.1.4",
-		"react": "^18",
-		"react-dom": "^18"
-	},
-	"devDependencies": {
-		"@elysiajs/elf": "^0.0.0-exp-20230721.1301",
-		"@types/bun": "^1.0.11",
-		"@types/node": "^20",
-		"@types/react": "^18",
-		"@types/react-dom": "^18",
-		"autoprefixer": "^10.0.1",
-		"eslint": "^8",
-		"eslint-config-next": "14.1.4",
-		"postcss": "^8",
-		"tailwindcss": "^3.3.0",
-		"typescript": "^5"
-	}
+  "name": "nextjs-elysia-router-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "dev:turbo": "bun next --turbo",
+    "dev:api": "API_MODE=headless bun --watch ./api/index.ts",
+    "dev:eden": "bun run --watch ./api/\\!\\(dev\\)/DEV__eden.ts",
+    "api:generate": "elf"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^1.0.7",
+    "@elysiajs/swagger": "^1.0.3",
+    "@tanstack/react-store": "^0.3.1",
+    "@tanstack/store": "^0.3.1",
+    "elysia": "^1.0.9",
+    "next": "14.1.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.3",
+    "@elysiajs/elf": "^0.0.0-exp-20230721.1301",
+    "@types/bun": "^1.0.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
