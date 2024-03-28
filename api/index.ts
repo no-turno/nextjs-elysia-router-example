@@ -5,4 +5,4 @@ import type { BasePath } from "./config";
 
 const app = setup<Elysia<BasePath>>(router as unknown as Elysia);
 
-export default app;
+export { app as api };

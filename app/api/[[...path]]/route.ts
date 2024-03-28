@@ -1,6 +1,8 @@
-import app from "@/api";
+import { api } from "@/api";
 import { mount } from "@/api/setup";
 
-export const GET = mount(app);
+const handler = mount(api);
 
-export const POST = mount(app);
+export const GET = handler;
+
+export const POST = handler;
