@@ -7,8 +7,10 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
+		"dev:turbo": "bun next --turbo",
 		"dev:api": "API_MODE=headless bun --watch ./api/index.ts",
-		"dev:eden": "bun run --watch ./api/\\!\\(dev\\)/DEV__eden.ts"
+		"dev:eden": "bun run --watch ./api/\\!\\(dev\\)/DEV__eden.ts",
+		"api:generate": "elf"
 	},
 	"dependencies": {
 		"@elysiajs/eden": "^1.0.7",
@@ -21,6 +23,7 @@
 		"react-dom": "^18"
 	},
 	"devDependencies": {
+		"@elysiajs/elf": "^0.0.0-exp-20230721.1301",
 		"@types/bun": "^1.0.11",
 		"@types/node": "^20",
 		"@types/react": "^18",
