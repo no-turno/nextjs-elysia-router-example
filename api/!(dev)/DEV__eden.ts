@@ -1,5 +1,5 @@
 import { treaty } from "@elysiajs/eden";
-import { router } from "./routes";
+import { router } from "../routes";
 
 const api = treaty(router);
 
